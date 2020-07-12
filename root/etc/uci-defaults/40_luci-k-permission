@@ -1,6 +1,6 @@
 #!/bin/sh
 
-/etc/init.d/rpcd restart
+[ -e "/etc/init.d/rpcd" ] && /etc/init.d/rpcd restart
 
 rm -f /tmp/luci-indexcache
 
