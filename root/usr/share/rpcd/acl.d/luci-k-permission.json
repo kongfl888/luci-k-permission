@@ -1,0 +1,83 @@
+{
+	"luci-app-koolproxyR": {
+		"description": "Grant UCI access for luci-app-koolproxyR",
+		"read": {
+			"uci": [ "koolproxy" ]
+		},
+		"write": {
+			"uci": [ "koolproxy" ]
+		}
+	},
+	"luci-app-adbyby-plus": {
+		"description": "Grant UCI access for luci-app-adbyby-plus",
+		"read": {
+			"uci": [ "adbyby" ]
+		},
+		"write": {
+			"uci": [ "adbyby" ]
+		}
+	},
+	"luci-app-adguardhome": {
+		"description": "Grant UCI access for luci-app-adguardhome",
+		"read": {
+			"uci": [ "AdGuardHome", "adguardhome" ]
+		},
+		"write": {
+			"uci": [ "AdGuardHome", "adguardhome" ]
+		}
+	},
+	"luci-app-accesscontrol": {
+		"description": "Grant UCI access for luci-app-accesscontrol",
+		"read": {
+			"uci": [ "mia" ]
+		},
+		"write": {
+			"uci": [ "mia" ]
+		}
+	},
+	"luci-app-vlmcsd": {
+		"description": "Grant UCI access for luci-app-vlmcsd",
+		"read": {
+			"uci": [ "vlmcsd" ]
+		},
+		"write": {
+			"uci": [ "vlmcsd" ]
+		}
+	},
+	"luci-app-arpbind": {
+		"description": "Grant UCI access for luci-app-arpbind",
+		"read": {
+			"uci": [ "arpbind" ]
+		},
+		"write": {
+			"uci": [ "arpbind" ]
+		}
+	},
+	"luci-app-iptvhelper": {
+		"description": "Grant UCI access for luci-app-iptvhelper",
+		"read": {
+			"uci": [ "iptvhelper" ]
+		},
+		"write": {
+			"uci": [ "iptvhelper" ]
+		}
+	},
+	"luci-app-vssr": {
+		"description": "Grant UCI access for luci-app-vssr",
+		"read": {
+			"uci": [ "vssr" ]
+		},
+		"write": {
+			"uci": [ "vssr" ]
+		}
+	},
+	"luci-app-zerotier": {
+		"description": "Grant UCI access for luci-app-zerotier",
+		"read": {
+			"uci": [ "zerotier" ]
+		},
+		"write": {
+			"uci": [ "zerotier" ]
+		}
+	}
+}
