@@ -71,6 +71,51 @@
 			"uci": [ "vssr" ]
 		}
 	},
+	"luci-app-ssrserver-python": {
+		"description": "Grant UCI access for luci-app-ssrserver-python",
+		"read": {
+			"uci": [ "ssrs" ]
+		},
+		"write": {
+			"uci": [ "ssrs" ]
+		}
+	},
+	"luci-app-syncdial": {
+		"description": "Grant UCI access for luci-app-syncdial",
+		"read": {
+			"uci": [ "syncdial" ]
+		},
+		"write": {
+			"uci": [ "syncdial" ]
+		}
+	},
+	"luci-app-mwan3helper": {
+		"description": "Grant UCI access for luci-app-mwan3helper",
+		"read": {
+			"uci": [ "mwan3helper" ]
+		},
+		"write": {
+			"uci": [ "mwan3helper" ]
+		}
+	},
+	"luci-app-qbittorrent": {
+		"description": "Grant UCI access for luci-app-qbittorrent",
+		"read": {
+			"uci": [ "qbittorrent" ]
+		},
+		"write": {
+			"uci": [ "qbittorrent" ]
+		}
+	},
+	"luci-app-unblockmusic": {
+		"description": "Grant UCI access for luci-app-unblockmusic",
+		"read": {
+			"uci": [ "unblockmusic" ]
+		},
+		"write": {
+			"uci": [ "unblockmusic" ]
+		}
+	},
 	"luci-app-zerotier": {
 		"description": "Grant UCI access for luci-app-zerotier",
 		"read": {
