@@ -53,6 +53,15 @@
 			"uci": [ "arpbind" ]
 		}
 	},
+	"luci-app-oaf": {
+		"description": "Grant UCI access for luci-app-oaf",
+		"read": {
+			"uci": [ "appfilter" ]
+		},
+		"write": {
+			"uci": [ "appfilter" ]
+		}
+	},
 	"luci-app-iptvhelper": {
 		"description": "Grant UCI access for luci-app-iptvhelper",
 		"read": {
@@ -78,6 +87,15 @@
 		},
 		"write": {
 			"uci": [ "ssrs" ]
+		}
+	},
+	"luci-app-serverchan": {
+		"description": "Grant UCI access for luci-app-serverchan",
+		"read": {
+			"uci": [ "serverchan" ]
+		},
+		"write": {
+			"uci": [ "serverchan" ]
 		}
 	},
 	"luci-app-syncdial": {
